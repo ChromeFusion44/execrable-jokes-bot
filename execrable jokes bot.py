@@ -42,5 +42,10 @@ def tellJoke():
     jokeNumber = random.randint(0,6)
     print jokes[jokeNumber]
     sys.stdout.flush()
-    time.sleep(3)
+    time.sleep(2.5)
     print punchlines[jokeNumber]
+    sys.stdout.flush()
+    time.sleep(3)
+    
+#Tell the joke once the file is executed
+tellJoke()
